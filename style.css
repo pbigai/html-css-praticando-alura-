@@ -170,3 +170,47 @@ body {
 .rodape__lista__link a:hover{
     color: var(--botao-azul);
 }
+
+@media (max-width: 600px) {
+    .principal { 
+        background-image: url("img/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__titulo {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        justify-items: center; /* Centralize horizontalmente no grid item */
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secundario {
+        align-items: center;
+        margin: 0 2em;
+    }
+
+    .dispositivos {
+        margin: 0 2em;
+    }
+    
+    
+}
