@@ -71,6 +71,12 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao_secundario:hover {
+    background-color: var(--branco-principal);
+    text-decoration: none;
+    color: var(--cor-fundo);
+}
+
 .container__aviso {
     color: var(--cinza-secundario);
     font-size: 12px;
